@@ -1,0 +1,31 @@
+﻿Сборка начата 08.07.2026 17:20:43.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\сортировка пузырьком\сортировка пузырьком.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\сортиров.50315b2c.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\сортиров.50315b2c.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\сортировка пузырьком\Source.cpp(39,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\сортировка пузырьком\Source.cpp(42,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\Debug\сортировка пузырьком.exe" /INCREMENTAL /ILK:"Debug\сортировка пузырьком.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\Debug\сортировка пузырьком.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\Debug\сортировка пузырьком.lib" /MACHINE:X86 Debug\Source.obj
+         сортировка пузырьком.vcxproj -> C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\Debug\сортировка пузырьком.exe
+       FinalizeBuildStatus:
+         Файл "Debug\сортиров.50315b2c.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\сортиров.50315b2c.tlog\сортировка пузырьком.lastbuildstate".
+     1>Сборка проекта "C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\сортировка пузырьком\сортировка пузырьком.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\сортировка пузырьком\сортировка пузырьком.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\сортировка пузырьком\Source.cpp(39,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         C:\Users\grigo\OneDrive\Desktop\С++\сортировка пузырьком\сортировка пузырьком\Source.cpp(42,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.76
