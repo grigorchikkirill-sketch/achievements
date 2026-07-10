@@ -1,0 +1,41 @@
+﻿Сборка начата 10.07.2026 18:17:00.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\SnakeGame.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\SnakeGame.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\SnakeGame.tlog\unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\\" /AI"C:\Program Files (x86)\Windows Kits\10\References" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\\" /Zi /clr /nologo /W3 /WX- /diagnostics:column /Od /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" /FC /errorReport:prompt /clr:nostdlib GameForm.cpp
+         GameForm.cpp
+     1>C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\GameForm.h(42,16): warning C4490: override: неправильное использование спецификатора переопределения; "SnakeGame::GameForm::OnPaint" не соответствует методу базового класса-ссылки
+         (компиляция исходного файла "GameForm.cpp")
+             C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\GameForm.h(42,16):
+             "new" или "override" разрешены только, когда существует соответствующий базовый метод из класса ref
+         
+     1>C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\GameForm.h(92,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         (компиляция исходного файла "GameForm.cpp")
+         
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\x64\Debug\SnakeGame.exe" /INCREMENTAL /ILK:"x64\Debug\SnakeGame.ilk" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\x64\Debug\SnakeGame.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\GameForm.obj
+         "x64\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.obj"
+         GameForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+         SnakeGame.vcxproj -> C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\x64\Debug\SnakeGame.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SnakeGame.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SnakeGame.tlog\SnakeGame.lastbuildstate".
+     1>Сборка проекта "C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\SnakeGame.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\SnakeGame.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\GameForm.h(42,16): warning C4490: override: неправильное использование спецификатора переопределения; "SnakeGame::GameForm::OnPaint" не соответствует методу базового класса-ссылки
+         C:\Users\grigo\OneDrive\Desktop\С++\SnakeGame\SnakeGame\GameForm.h(92,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.47
