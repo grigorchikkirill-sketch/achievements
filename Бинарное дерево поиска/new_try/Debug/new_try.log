@@ -1,0 +1,29 @@
+﻿Сборка начата 13.07.2026 20:34:56.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\grigo\OneDrive\Desktop\С++\new_try\new_try\new_try.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\new_try.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\new_try.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\Users\grigo\OneDrive\Desktop\С++\new_try\new_try\Source.cpp(157,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\grigo\OneDrive\Desktop\С++\new_try\Debug\new_try.exe" /INCREMENTAL /ILK:"Debug\new_try.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\grigo\OneDrive\Desktop\С++\new_try\Debug\new_try.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\grigo\OneDrive\Desktop\С++\new_try\Debug\new_try.lib" /MACHINE:X86 Debug\Source.obj
+         new_try.vcxproj -> C:\Users\grigo\OneDrive\Desktop\С++\new_try\Debug\new_try.exe
+       FinalizeBuildStatus:
+         Файл "Debug\new_try.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\new_try.tlog\new_try.lastbuildstate".
+     1>Сборка проекта "C:\Users\grigo\OneDrive\Desktop\С++\new_try\new_try\new_try.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\grigo\OneDrive\Desktop\С++\new_try\new_try\new_try.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\grigo\OneDrive\Desktop\С++\new_try\new_try\Source.cpp(157,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.79
