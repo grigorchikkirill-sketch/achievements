@@ -1,0 +1,42 @@
+ table {
+     border-spacing: 0;
+ }
+
+ th {
+     color: white;
+ }
+
+ td:not(:nth-child(1)) {
+     color: white;
+ }
+
+ td,
+ th {
+     border: 3px solid rgb(54, 48, 37);
+     text-align: center;
+     border-style: double;
+ }
+
+
+ thead th {
+     font-size: 1.2em;
+     height: 50px;
+     background-color: darkblue;
+ }
+
+ td:nth-child(1) {
+     font-weight: bold;
+ }
+
+ .pop {
+     width: 50px;
+     empty-cells: hide;
+ }
+
+ caption {
+     margin-bottom: 15px;
+ }
+
+ body {
+     cursor: url("cursor.png"), auto;
+ }

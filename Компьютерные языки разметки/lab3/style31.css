@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Carveat';
+    src: url('fonts/Caveat.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Exo2";
+    src: url('fonts/Exo2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa.ttf') format('truetype');
+
+}
+
+h1 {
+    font-family: Carveat;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: capitalize;
+    text-shadow: #fc0 1px 0 10px;
+}
+
+h2 {
+    font-family: Exo2;
+    margin-top: 0.2rem;
+    margin-bottom: 1.2em;
+    text-indent: 25px;
+    text-align: left;
+}
+
+p {
+    font-family: Comfortaa;
+    text-indent: 25px;
+    /* отступ первой строки */
+    text-align: justify;
+    /* выравнивание по ширине */
+    margin: 0;
+    /* убирает отступы сверху и снизу между абзацами */
+    line-height: 200%;
+    /* межстрочный интервал — 200% от размера шрифта */
+    font-size: 20px;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    background-color: hsla(275, 100%, 10%, 1);
+}
+
+ol li {
+    margin-top: 0;
+    font-family: Comfortaa;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    counter-increment: roman-counter;
+    /* Указываем идентификатор */
+}
+
+ol li:before {
+    content: counter(roman-counter, upper-roman) ". ";
+    /* Выводим текст перед содержимым тега li */
+    color: blue;
+}
+
+.text::first-line {
+    color: red;
+    text-indent: 25px;
+}

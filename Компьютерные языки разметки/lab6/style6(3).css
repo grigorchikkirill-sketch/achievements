@@ -1,0 +1,13 @@
+    figure {
+        display: inline-block;
+    }
+
+    img {
+        width: 250px;
+        height: 200px;
+
+    }
+
+    figcaption {
+        text-align: center;
+    }

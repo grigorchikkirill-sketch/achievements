@@ -1,0 +1,100 @@
+form {
+    background-color: indigo;
+    width: 445px;
+    height: 515px;
+}
+
+.label {
+    font-size: 1.2em;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    margin-left: 15px;
+}
+
+input[type="text"] {
+    height: 20px;
+    width: 190px;
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+    border-radius: 5px;
+}
+
+select {
+    border-radius: 2px;
+    height: 25px;
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input[type="date"] {
+    border-radius: 2px;
+    height: 25px;
+    width: 143px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input[type="email"] {
+    height: 20px;
+    width: 190px;
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+    border-radius: 5px;
+}
+
+p:first-child {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+input[type="button"] {
+    display: inline-block;
+    box-shadow: 0 0 4px white;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button1 {
+    width: 100px;
+    margin-left: 200px;
+
+}
+
+.button2 {
+    width: 70px;
+    margin-left: 5px;
+}
+
+input[type="text"]:focus {
+    background-color: white;
+    color: black;
+}
+
+label {
+    color: white;
+}
+
+span {
+    font-size: 1.2em;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    margin-left: 15px;
+}

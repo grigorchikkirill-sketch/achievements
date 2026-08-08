@@ -1,0 +1,77 @@
+.first {
+    border: 5px;
+    border-style: solid;
+    border-left-color: brown;
+    border-bottom-color: yellow;
+    border-right-color: darkblue;
+    border-top-color: orange;
+}
+
+.second {
+    border: 5px;
+    border-style: solid;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-color: #007BA7;
+}
+
+.third {
+    border: 5px;
+    border-style: dashed;
+    border-color: cyan;
+    border-top-style: solid;
+    border-top-color: rgb(229, 43, 80);
+}
+
+.fourth {
+    border: 1px;
+    border-style: dotted;
+    border-color: orange;
+}
+
+.fifth {
+    border: 2px;
+    border-top-color: darkblue;
+    border-bottom-color: darkblue;
+    border-style: solid;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-left-color: maroon;
+    border-right-color: maroon;
+}
+
+.sixth {
+    border: 5px;
+    border-style: double;
+    border-color: #B3446C;
+}
+
+.seventh {
+    border-top: 1px;
+    border-top-style: dashed;
+    border-top-color: #808000;
+    border-bottom: 3px;
+    border-bottom-color: #FF7518;
+    border-bottom-style: solid;
+}
+
+.eighth {
+    border: 5px;
+    border-left-style: double;
+    border-bottom-style: double;
+    border-color: #CC7722;
+}
+
+.ninth {
+    border: 5px;
+    border-color: #B5A642;
+    border-right-style: ridge;
+    border-top-style: ridge;
+}
+
+.tenth {
+    border: 5px;
+    border-style: dotted;
+    border-top-style: none;
+    border-color: rgb(0, 40, 0);
+}

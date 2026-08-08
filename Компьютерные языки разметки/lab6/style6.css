@@ -1,0 +1,43 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td,
+th {
+
+    border: 2px solid black;
+}
+
+ul li {
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: -2.5px -2px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(ведьмак.png);
+    background-size: 30px;
+}
+
+body {
+    background-image: url(лого.jpg);
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.opt {
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.marg {
+    margin-bottom: 20px;
+
+}
