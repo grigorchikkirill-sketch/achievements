@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: purple;
+    font-family: "Monotype Corsiva";
+}
+
+table,
+tr,
+td,
+th {
+    border-collapse: collapse;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.firstgroup {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.secondgroup {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+.thirdgroup {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
+
+table th {
+    background-color: beige;
+}
+
+tr td {
+    background-color: aqua;
+}

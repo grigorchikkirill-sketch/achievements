@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .ph1, .ph2, .ph3 {
+            flex: 1;
+            position: relative;
+        }
+
+        .ph1 img, .ph3 img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Скрытие описания по умолчанию */
+        .ph1 .description {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Граница для второй фотографии при клике */
+        .ph2.clicked img {
+            border: 10px solid red;
+            box-sizing: border-box;
+        }
+
+        .ph2 img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Первая фотография: при наведении — описание -->
+        <div class="ph1" 
+             onmouseover="showDescription()" 
+             onmouseout="hideDescription()">
+            <img src="ph1.jpg" id="photo1">
+            <div class="description" id="desc1">
+                <p>Это первая фотография</p>
+                <p>Она очень красивая</p>
+                <p>Наведите курсор, чтобы увидеть это описание</p>
+            </div>
+        </div>
+
+        <!-- Вторая фотография: при клике — красная граница -->
+        <div class="ph2" onclick="toggleBorder(this)">
+            <img src="ph2.jpg" id="photo2">
+        </div>
+
+        <!-- Третья фотография: при наведении — замена изображения -->
+        <div class="ph3"
+             onmouseover="this.querySelector('img').src='ph3-hover.jpg'"
+             onmouseout="this.querySelector('img').src='ph3.jpg'">
+            <img src="ph3.jpg" id="photo3">
+        </div>
+    </div>
+
+    <script>
+        function showDescription() {
+            document.getElementById('desc1').style.display = 'flex';
+            document.getElementById('photo1').style.display = 'none';
+        }
+
+        function hideDescription() {
+            document.getElementById('desc1').style.display = 'none';
+            document.getElementById('photo1').style.display = 'block';
+        }
+
+        function toggleBorder(container) {
+            container.classList.toggle('clicked');
+        }
+    </script>
+</body>
+</html>

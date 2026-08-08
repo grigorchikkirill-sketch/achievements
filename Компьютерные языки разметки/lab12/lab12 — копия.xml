@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style12.css"?>
+<!DOCTYPE container [
+  <!ELEMENT container (info, tovar+)>
+  <!ELEMENT info (product, price, opisanie)>
+  <!ELEMENT product (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT opisanie (#PCDATA)>
+  <!ELEMENT tovar (name, value, description)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT value (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ENTITY symbol ":">
+]>
+<container>
+  <info>
+    <product>Products</product>
+    <price>Price $</price>
+    <opisanie>Description</opisanie>
+  </info>
+
+  <tovar>
+    <name>Orange&symbol;</name>
+    <value>1</value>
+    <description>Сочный цитрусовый фрукт, богатый витамином C.</description>
+  </tovar>
+
+  <tovar>
+    <name>Milk&symbol;</name>
+    <value>1.8</value>
+    <description>Свежее коровье молоко высокого качества.</description>
+  </tovar>
+
+  <tovar>
+    <name>biscuit&symbol;</name>
+    <value>2</value>
+    <description>Хрустящее печенье с нежным вкусом ванили.</description>
+  </tovar>
+
+  <tovar>
+    <name>beef&symbol;</name>
+    <value>15</value>
+    <description>Свежая говядина, идеально подходящая для стейков.</description>
+  </tovar>
+
+  <tovar>
+    <name>cake&symbol;</name>
+    <value>20</value>
+    <description>Праздничный торт с кремом и ягодами.</description>
+  </tovar>
+</container>

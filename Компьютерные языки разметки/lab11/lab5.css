@@ -1,0 +1,54 @@
+ table {
+     border-spacing: 0;
+     border-collapse: collapse;
+ }
+
+ td {
+     border: 2px solid;
+     text-align: center;
+     height: 80px;
+     vertical-align: middle;
+ }
+
+ .main_size {
+     height: 21px;
+     width: 400px;
+ }
+
+ .time_size {
+     width: 55px;
+     height: 20px;
+ }
+
+ .data_size {
+     width: 35px;
+     height: 20px;
+ }
+
+ .time {
+     line-height: 30px;
+ }
+
+ .data {
+     transform: rotate(-90deg)
+ }
+
+ .end {
+     height: 20px;
+ }
+
+ .roman {
+     text-align: left;
+ }
+
+ td:first-child {
+     background-color: rgb(208, 181, 111);
+ }
+
+ #col {
+     background-color: rgb(93, 218, 93);
+ }
+
+ span {
+     font-weight: bold;
+ }

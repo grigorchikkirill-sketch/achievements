@@ -1,0 +1,28 @@
+div {
+    display: inline-block;
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.first {
+    background-image: linear-gradient(to bottom, blue, purple, red)
+}
+
+.second {
+    /*background-image: linear-gradient(45deg, blue 5%, red 5%, red 10%, blue 10%, blue 15%, red 15%, red 20%, blue 20%, blue 25%, red 25%, red 30%, blue 30%, blue 35%, red 35%, red 40%, blue 40%, blue 45%, red 45%, red 50%, blue 50%, blue 55%, red 55%, red 60%, blue 60%, blue 65%, red 65%, red 70%, blue 70%, blue 75%, red 75%, red 80%, blue 80%, blue 85%, red 85%, red 90%, blue 90%, blue 95%, red 95%, red 100%);*/
+    background-image: repeating-linear-gradient(45deg, red 3%, blue 4%, blue 8%, red 8%, red 12%);
+}
+
+.third {
+    background-image: radial-gradient(yellow, green);
+}
+
+.fourth {
+    background-image: repeating-radial-gradient(circle, green 10%, rgb(226, 232, 58) 10%, rgb(226, 232, 58) 20%, green 20%, green 30%);
+}
+
+.fifth {
+    background-image:
+        radial-gradient(yellow, green, transparent), linear-gradient(to bottom, blue 50%, rgb(235, 61, 235) 90%, rgb(235, 61, 235) 100%, transparent);
+}

@@ -1,0 +1,90 @@
+%main {
+    color: purple;
+    font-family: "Monotype Corsiva";
+}
+
+%shrift {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+%border_main {
+    border-collapse: collapse;
+    border-style: groove;
+    border-width: 3px;
+}
+
+h1 {
+    @extend %main;
+}
+
+h2 {
+    @extend %main;
+}
+
+h3 {
+    @extend %main;
+}
+
+h4 {
+    @extend %main;
+}
+
+h5 {
+    @extend %main;
+}
+
+h6 {
+    @extend %main;
+}
+
+.firstgroup {
+    color: red;
+    @extend %shrift;
+    font-size: 18pt;
+}
+
+.secondgroup {
+    color: yellow;
+    @extend %shrift;
+    font-size: 20pt;
+}
+
+.thirdgroup {
+    color: green;
+    @extend %shrift;
+    font-size: 22pt;
+}
+
+table {
+    th {
+        background-color: beige;
+    }
+}
+
+tr {
+    td {
+        background-color: aqua;
+    }
+}
+
+p {
+    color: blue;
+    font-family: Arial;
+    font-size: 16pt;
+}
+
+table {
+    @extend %border_main;
+}
+
+tr {
+    @extend %border_main;
+}
+
+td {
+    @extend %border_main;
+}
+
+th {
+    @extend %border_main;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style12.css"?>
+<container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lab123.xsd">
+<info>
+  <product>Products</product> 
+  <price>Price $</price>
+  <opisanie>description</opisanie>
+  </info>
+  <tovar>
+    <name>Orange</name> 
+    <value>1</value> 
+    <description>Сочный цитрусовый фрукт, богатый витамином C.</description>
+  </tovar>
+  
+  <tovar>
+    <name>Milk</name> 
+    <value>1.8</value> 
+    <description>Свежее коровье молоко высокого качества.</description>
+  </tovar> 
+  
+  <tovar>
+    <name>biscuit</name> 
+    <value>2</value> 
+    <description>Хрустящее печенье с нежным вкусом ванили.</description>
+  </tovar>
+
+  <tovar>
+    <name>beef</name> 
+    <value>15</value> 
+    <description>Свежая говядина, идеально подходящая для стейков.</description>
+  </tovar>
+  
+  <tovar>
+    <name>cake</name> 
+    <value>20</value>
+    <description>Праздничный торт с кремом и ягодами.</description>
+  </tovar> 
+</container>

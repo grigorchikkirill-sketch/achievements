@@ -1,0 +1,244 @@
+.header {
+    background-image: url(../pm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+@import "main.scss";
+
+@mixin container_hyper_text {
+    border: solid rgb(211, 210, 210) 1px;
+    width: 40px;
+    height: 35px;
+    background-color: aliceblue;
+}
+
+.contain_hyper {
+    @include container_hyper_text();
+}
+
+@mixin form_s {
+    display: inline-block;
+
+    box-sizing: content-box;
+    height: 200px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+@mixin for_label {
+    width: 30%;
+    text-align: right;
+}
+
+%shablon {
+    position: relative;
+    left: $size-left;
+}
+
+%shablon2 {
+    margin-bottom: 20px;
+}
+
+.main {
+    height: 98%;
+    width: 98%;
+
+
+    .img {
+        display: inline-block;
+    }
+
+    .grid div img {
+        height: 128px;
+        width: 140px;
+        border-radius: 20px;
+    }
+
+    .grid div {
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .photo {
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+
+    .title {
+        text-align: center;
+        padding-top: 15px;
+        margin-left: 10px;
+        font-size: $font-size;
+    }
+
+
+
+
+    .grid {
+        margin-top: 20px;
+        display: grid;
+        width: 50%;
+        gap: 10px;
+        grid-template-rows: 50px 150px 0 0 50px 130px;
+        grid-template-columns: 60px;
+        grid-template-areas:
+            "a a a a a a a a a a a a"
+            "b b b b c c c c d d d d"
+            "b b b b c c c c d d d d"
+            "b b b b c c c c d d d d"
+            "e e e e e e e e e e e e"
+            "f f f q q q z z z t t t"
+        ;
+
+    }
+
+    .header {
+        height: 110px;
+        width: 96%;
+
+        .hyper div a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+        .hyper {
+            display: inline-block;
+            position: relative;
+            bottom: 35px;
+            margin-left: 300px;
+        }
+
+        .hyper div {
+            display: inline-block;
+            margin: 10px;
+            width: 130px;
+            height: 40px;
+            box-sizing: border-box;
+            padding-top: 8px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .logo {
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 17px;
+            height: 80px;
+            width: 400px;
+
+
+            img {
+                height: 98%;
+                padding-left: 150px;
+            }
+
+        }
+    }
+
+}
+
+.font {
+    font-size: size-article($font-size, $article-size);
+}
+
+.aside {
+    @extend %shablon;
+}
+
+form {
+    @include form_s();
+}
+
+
+p {
+    padding-left: 10%;
+}
+
+.label {
+    display: inline-block;
+
+    @include for_label()
+}
+
+
+p:last-child {
+    padding-left: 37%;
+}
+
+input[type="button"] {
+    @extend %shablon2;
+}
+
+.new_title {
+
+    text-align: center;
+    height: 40px;
+    width: 600px;
+    position: absolute;
+    margin-top: 20px;
+    top: 340px;
+    left: 773px;
+}
+
+.container {
+
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    margin-top: 20px;
+    left: 773px;
+    bottom: 80px;
+    background-color: size-element($element);
+}
+
+.p5 {
+    width: 130px;
+    position: relative;
+    right: 210px;
+    top: 10px;
+}
+
+.p6 {
+    position: relative;
+    width: 130px;
+    right: 210px;
+    bottom: 80px;
+}
+
+.tp5 {
+    width: 300px;
+    height: 90px;
+    position: relative;
+    left: 240px;
+    bottom: 45px;
+    box-sizing: border-box;
+    overflow: hidden;
+    bottom: 85px;
+}
+
+.tp6 {
+    width: 300px;
+    height: 90px;
+    position: relative;
+    box-sizing: border-box;
+    left: 240px;
+    bottom: 175px;
+    overflow: hidden;
+}
+
+.footer {
+    position: absolute;
+    height: 60px;
+    top: 640px;
+    width: 92%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-left: 20px;
+}

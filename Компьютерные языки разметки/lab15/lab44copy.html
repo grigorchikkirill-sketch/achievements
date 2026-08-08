@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <style>
+        body {
+            background-color: rgb(238, 222, 200);
+        }
+
+        form {
+            width: max-content;
+        }
+
+        fieldset {
+            border-width: thick;
+        }
+
+        /* Заголовок таблицы */
+        .student-data-header {
+            padding-bottom: 10px;
+            font-size: xx-large;
+            font-weight: 250;
+            text-align: center;
+        }
+
+        /* Общие стили для ячеек */
+        .label-cell {
+            text-align: right;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            font-size: large;
+        }
+
+        .input-cell {
+            padding-bottom: 10px;
+        }
+
+        .input-cell input {
+            font-size: 100%;
+        }
+
+        /* Ширина для вопроса про соцсети */
+        .social-question {
+            width: 160px;
+        }
+
+        /* Стиль для чекбоксов и подписей */
+        .social-options {
+            padding-bottom: 10px;
+            font-size: large;
+        }
+
+        /* Кнопка отправки */
+        .submit-row {
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <table>
+                <tr>
+                    <td class="student-data-header" colspan="2">Данные студента</td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Имя студента</td>
+                    <td class="input-cell">
+                        <input type="text" placeholder="обязательно заполнить" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Отчество студента</td>
+                    <td class="input-cell">
+                        <input type="text" placeholder="обязательно заполнить" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Фамилия студента</td>
+                    <td class="input-cell">
+                        <input type="text" placeholder="обязательно заполнить" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Адрес почты</td>
+                    <td class="input-cell">
+                        <input type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Контактный номер</td>
+                    <td class="input-cell">
+                        <input type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell social-question">
+                        Какую социальную сеть вы используете?
+                    </td>
+                    <td class="social-options">
+                        <input type="checkbox" id="vk" />
+                        <label for="vk">VK</label>
+                        <input type="checkbox" id="facebook" />
+                        <label for="facebook">Facebook</label>
+                        <input type="checkbox" id="instagram" />
+                        <label for="instagram">Instagram</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="submit-row">
+                        <input type="button" value="Отправить" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

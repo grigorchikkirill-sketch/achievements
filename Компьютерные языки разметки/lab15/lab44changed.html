@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style152.css" rel="stylesheet" media="all">
+    <title>forma</title>
+</head>
+
+<body>
+    <form>
+        <h1>Данные студента</h1>
+        <p><label for="im" class="label"> Имя студента</label>
+            <input type="text" id="im" placeholder="обязательно заполнить" class="text" />
+        </p>
+        <p><label for="ot" class="label"> Отчество студента</label>
+            <input type="text" id="ot" placeholder="обязательно заполнить" class="text" />
+        </p>
+        <p><label for="fam" class="label"> Фамилия студента</label>
+            <input type="text" id="fam" placeholder="обязательно заполнить" class="text" />
+        </p>
+        <p><label for="em" class="label"> Адрес почты</label>
+            <input type="email" id="em" class="text" />
+        </p>
+        <p><label for="phone" class="label"> Контактный номер</label>
+            <input type="text" id="phone" class="text" />
+        </p>
+        <p>
+            <label class="label" for="facult">На каком факультете вы
+                обучаетесь?</label>
+            <select id="facult" style="position: relative; bottom: 20px;">
+                <option value="1">Лесохозяйственный факультет</option>
+                <option value="2">Факультет лесной инженерии, материаловедения и дизайна</option>
+                <option value="3">Факультет технологии органических веществ</option>
+                <option value="4">Факультет принттехнологий и медиакоммуникаций</option>
+                <option value="5">Инженерно-экономический факультет</option>
+                <option value="6">Факультет информационных технологий</option>
+                <option value="7">Факультет заочного образования</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="group" class="label">Какая у вас группа?</label>
+            <select id="group">
+                <option value="1">1-я группа</option>
+                <option value="2">2-я группа</option>
+                <option value="3">3-я группа</option>
+                <option value="4">4-я группа</option>
+                <option value="5">5-я группа</option>
+                <option value="6">6-я группа</option>
+                <option value="7">7-я группа</option>
+                <option value="8">8-я группа</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="curs" class="label">Какой у вас курс?</label>
+            <select id="curs">
+                <option value="1">1-й курс</option>
+                <option value="2">2-й курс</option>
+                <option value="3">3-й курс</option>
+                <option value="4">4-й курс</option>
+                <option value="5">5-й курс</option>
+                <option value="6">6-й курс</option>
+            </select>
+        </p>
+        <p class="container">
+            <span>Какую социальную сеть вы используете?</span>
+            <input type="checkbox" id="VK" class="checkbox" value="VK" />
+            <label for="VK">VK</label>
+            <input type="checkbox" id="Facebook" class="checkbox" value="Facebook" />
+            <label for="Facebook">Facebook</label>
+            <input type="checkbox" id="Instagram" class="checkbox" value="Instagram" />
+            <label for="Instagram">Instagram</label>
+        </p>
+        <p><input type="button" value="Отправить" /></p>
+    </form>
+
+    <footer id="footer"></footer>
+
+    <script src="java2.js"></script>
+</body>
+
+</html>

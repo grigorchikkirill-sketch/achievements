@@ -1,0 +1,43 @@
+h6, h5, h4, h3, h2, h1 {
+  color: purple;
+  font-family: "Monotype Corsiva";
+}
+
+.thirdgroup, .secondgroup, .firstgroup {
+  font-family: "Times New Roman", Times, serif;
+}
+
+th, td, tr, table {
+  border-collapse: collapse;
+  border-style: groove;
+  border-width: 3px;
+}
+
+.firstgroup {
+  color: red;
+  font-size: 18pt;
+}
+
+.secondgroup {
+  color: yellow;
+  font-size: 20pt;
+}
+
+.thirdgroup {
+  color: green;
+  font-size: 22pt;
+}
+
+table th {
+  background-color: beige;
+}
+
+tr td {
+  background-color: aqua;
+}
+
+p {
+  color: blue;
+  font-family: Arial;
+  font-size: 16pt;
+}/*# sourceMappingURL=lab14.css.map */

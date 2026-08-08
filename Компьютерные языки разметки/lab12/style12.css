@@ -1,0 +1,38 @@
+container {
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 500px;
+    top: 180px;
+    border-collapse: collapse;
+}
+
+
+container tovar,
+info {
+    display: flex;
+    flex-direction: row;
+    border: black 1px solid;
+    width: 400px;
+    border-collapse: collapse;
+    height: 400px;
+}
+
+name,
+value,
+description,
+product,
+price,
+opisanie {
+    text-align: center;
+    border: black 1px solid;
+    border-collapse: collapse;
+    flex: 1;
+}
+
+info {
+    background-color: burlywood;
+}

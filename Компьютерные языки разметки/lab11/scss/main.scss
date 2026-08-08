@@ -1,0 +1,25 @@
+$size-left: 45px;
+$font-size: 15px;
+$article-size: 15px;
+$element: 600px;
+
+@function size-article($font-size, $article-size) {
+    @if ($font-size > 15px and ($article-size - $font-size) !=10px) {
+        @return 15px;
+    }
+
+    @else {
+        @return 10px;
+    }
+
+}
+
+@function size-element($element) {
+    @if ($element ==600px) {
+        @return rgb(238, 237, 173);
+    }
+
+    @else {
+        @return rgb(230, 250, 178);
+    }
+}

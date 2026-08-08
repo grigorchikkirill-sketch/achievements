@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="grade.xsl"?>
+<container>
+  <studens>Name</studens>
+  <grade>Grade</grade>
+  <student>
+    <name>Alexey Ivanov</name>
+    <value>7</value>
+  </student>
+  <student>
+    <name>Maria Petrova</name>
+    <value>9</value>
+  </student>
+  <student>
+    <name>Dmitry Sokolov</name>
+    <value>5</value>
+  </student>
+  <student>
+    <name>Anna Smirnova</name>
+    <value>10</value>
+  </student>
+  <student>
+    <name>Igor Kuznetsov</name>
+    <value>6</value>
+  </student>
+  <student>
+    <name>Ekaterina Volkova</name>
+    <value>8</value>
+  </student>
+  <student>
+    <name>Sergey Popov</name>
+    <value>4</value>
+  </student>
+  <student>
+    <name>Olga Lebedeva</name>
+    <value>9</value>
+  </student>
+  <student>
+    <name>Nikolay Morozov</name>
+    <value>3</value>
+  </student>
+  <student>
+    <name>Tatiana Fedorova</name>
+    <value>7</value>
+  </student>
+  <student>
+    <name>Vladimir Egorov</name>
+    <value>8</value>
+  </student>
+  <student>
+    <name>Yulia Vinogradova</name>
+    <value>6</value>
+  </student>
+  <student>
+    <name>Andrey Orlov</name>
+    <value>5</value>
+  </student>
+</container>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style15.css" rel="stylesheet" media="all">
+    <title>task1</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ph1" onmouseover="task11(1)" onmouseout="task12(1)">
+            <img src="ph1.jpg" id="ph1">
+            <div id="text1" style="display:none">
+                <p>Это первая фотография</p>
+                <p>Assassin's creed Rouge</p>
+                <p>Наведите курсор, чтобы увидеть это описание</p>
+            </div>
+        </div>
+        <div class="ph2" onclick="task13(2)">
+            <img src="ph2.jpg" id="ph2">
+        </div>
+        <div class="ph3">
+            <img src="ph3.jpg" id="ph3" onmouseover="this.src='ph2.jpg'" onmouseout="this.src='ph3.jpg'">
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
